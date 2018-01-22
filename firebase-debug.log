@@ -1,0 +1,80 @@
+[debug] [2017-12-20T08:59:23.030Z] ----------------------------------------------------------------------
+[debug] [2017-12-20T08:59:23.033Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\z003nrrw\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-12-20T08:59:23.033Z] CLI Version:   3.16.0
+[debug] [2017-12-20T08:59:23.033Z] Platform:      win32
+[debug] [2017-12-20T08:59:23.033Z] Node Version:  v8.4.0
+[debug] [2017-12-20T08:59:23.036Z] Time:          Wed Dec 20 2017 09:59:23 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2017-12-20T08:59:23.036Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-12-20T08:59:23.050Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-12-20T08:59:23.052Z] > authorizing via signed-in user
+[debug] [2017-12-20T08:59:23.054Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-12-20T08:59:23.054Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/cghw6Bxc_cqheWOBE-VEGi7j9d8nUSXGGrCZop4p0lY',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed Dec 20 2017 09:59:23 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2017-12-20T08:59:23.642Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-20T08:59:23.678Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/sendtest-155a8  
+  
+ Wed Dec 20 2017 09:59:23 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2017-12-20T08:59:24.687Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-20T08:59:24.689Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/sendtest-155a8/tokens  
+  
+ Wed Dec 20 2017 09:59:24 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2017-12-20T08:59:25.589Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\z003nrrw\Desktop\GameProject'...
+[info] 
+[debug] [2017-12-20T08:59:25.598Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/sendtest-155a8  
+  
+ Wed Dec 20 2017 09:59:25 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2017-12-20T08:59:26.752Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-20T08:59:26.754Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/125524361866/clients/_:getWebAppConfig  
+  
+ Wed Dec 20 2017 09:59:26 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2017-12-20T08:59:27.790Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-20T08:59:27.853Z] TypeError: Cannot read property 'public' of undefined
+    at Server.<anonymous> (C:\Users\z003nrrw\AppData\Roaming\npm\node_modules\firebase-tools\lib\serve\hosting.js:34:17)
+    at Object.onceWrapper (events.js:314:30)
+    at emitNone (events.js:105:13)
+    at Server.emit (events.js:207:7)
+    at emitListeningNT (net.js:1349:10)
+    at _combinedTickCallback (internal/process/next_tick.js:135:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:218:9)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2017-12-20T09:02:17.660Z] ----------------------------------------------------------------------
+[debug] [2017-12-20T09:02:17.662Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\z003nrrw\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-12-20T09:02:17.662Z] CLI Version:   3.16.0
+[debug] [2017-12-20T09:02:17.662Z] Platform:      win32
+[debug] [2017-12-20T09:02:17.662Z] Node Version:  v8.4.0
+[debug] [2017-12-20T09:02:17.664Z] Time:          Wed Dec 20 2017 10:02:17 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2017-12-20T09:02:17.664Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-12-20T09:02:17.679Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-12-20T09:02:17.681Z] > authorizing via signed-in user
+[debug] [2017-12-20T09:02:17.684Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/sendtest-155a8  
+  
+ Wed Dec 20 2017 10:02:17 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2017-12-20T09:02:19.192Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-20T09:02:19.194Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/sendtest-155a8/tokens  
+  
+ Wed Dec 20 2017 10:02:19 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2017-12-20T09:02:20.359Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\z003nrrw\Desktop\GameProject'...
+[info] 
+[debug] [2017-12-20T09:02:20.367Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/sendtest-155a8  
+  
+ Wed Dec 20 2017 10:02:20 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2017-12-20T09:02:21.592Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-20T09:02:21.593Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/125524361866/clients/_:getWebAppConfig  
+  
+ Wed Dec 20 2017 10:02:21 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2017-12-20T09:02:22.337Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
